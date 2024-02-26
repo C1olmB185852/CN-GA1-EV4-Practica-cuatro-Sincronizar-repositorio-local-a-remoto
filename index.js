@@ -26,6 +26,10 @@ function factorial(n) {
 function exponente(base, exponent) {
     return Math.pow(base, exponent);
 }
+
+function raizCuadrada(numero) {
+    return Math.sqrt(numero);
+}
   
   // Función principal del programa
   function calculadora() {
