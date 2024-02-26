@@ -14,6 +14,14 @@ function multiplicar(num1, num2) {
 function dividir(num1, num2) {
     return num1 / num2;
   }
+
+function factorial(n) {
+    if (n === 0 || n === 1){
+      return 1;
+    } else {
+      return n * factorial(n - 1);
+    }
+  }
   
   // Función principal del programa
   function calculadora() {
