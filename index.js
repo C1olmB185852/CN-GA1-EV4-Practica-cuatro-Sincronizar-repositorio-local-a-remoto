@@ -22,6 +22,10 @@ function factorial(n) {
       return n * factorial(n - 1);
     }
   }
+
+function exponente(base, exponent) {
+    return Math.pow(base, exponent);
+}
   
   // Función principal del programa
   function calculadora() {
